@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+:root{
+    --primary-color: #F5CF06;
+    --secondary: #8E4106;
+}
+body{
+    background-color: var(--primary-color);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 64px;
+    font-family: "Righteous", sans-serif;
+}
+header{
+    height: 100px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+header div{
+    display: flex;
+    gap: 24px;
+}
+header a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 24px;
+    color: var(--secondary);
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.title h1{
+    font-size: 20vw;
+}
+.title span{
+    position: absolute;
+    font-size: 25vw;
+    top: -30%;
+    left: 0;
+    opacity: 0.3;
+}
+.container{
+    display: flex;
+    color: var(--secondary);
+}
+.container div{
+    width: 50%;
+    z-index: 1;
+}
+.container h2{
+    font-size: 4vw;
+}
+.container p{
+    font-size: 1.5vw;
+    width: 35vw;
+}
+.action{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    background-color: var(--secondary);
+    height: 100px;
+    width: 400px;
+    color: white;
+}
+footer{
+    height: 50px;
+    color: var(--secondary);
+    text-align: center;
+    font-style: italic;
+}
+.pikachu-image{
+    position: absolute;
+    top: 54%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    height: 75vh;
+}
