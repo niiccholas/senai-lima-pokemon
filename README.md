@@ -14,4 +14,4 @@ Site do tipo Landing Page para divulgar o jogo Let's Go, Pikachu. O objetivo des
 
 ## Autor
 
-- Nicolas Silva
+- Nicolas Silva [(Linkedin)](https://www.linkedin.com/in/nicolas-silva-b53b16327/)
